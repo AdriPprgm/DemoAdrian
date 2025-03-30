@@ -1,0 +1,14 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Hud.uss?fileID=7433441132597879392&amp;guid=ce3a0f674e5eab4468d3a6b869cd1d18&amp;type=3#Hud" />
+    <engine:VisualElement name="Container" class="container" style="flex-grow: 1;">
+        <engine:VisualElement name="Lives" class="lives" style="flex-grow: 1;">
+            <engine:VisualElement name="Life1" class="life" style="flex-grow: 1;" />
+            <engine:VisualElement name="Life2" class="life" style="flex-grow: 1;" />
+            <engine:VisualElement name="Life3" class="life" style="flex-grow: 1;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="GameOver" enabled="true" class="pauseorgameover" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.48);">
+            <engine:Label text="GAME OVER" name="GameOverText" enabled="true" class="title" style="font-size: 90px; -unity-text-align: upper-center; color: rgb(255, 0, 0); -unity-font-style: bold;" />
+            <engine:Label text="Press R to Restart" name="text" enabled="true" class="text" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

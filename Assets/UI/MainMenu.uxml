@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainMenu.uss?fileID=7433441132597879392&amp;guid=5de49240459bd0641a507bd9d6302acd&amp;type=3#MainMenu" />
+    <engine:VisualElement name="Container" class="container" style="flex-grow: 1;">
+        <engine:Label text="ELDEN RING" name="Title" class="title" />
+        <engine:VisualElement name="Buttons" class="buttons" style="flex-grow: 1;">
+            <engine:Button text="Level A" name="Abutton" class="button" style="font-size: 80px;" />
+            <engine:Button text="Level B" name="Bbutton" class="button" style="font-size: 80px;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

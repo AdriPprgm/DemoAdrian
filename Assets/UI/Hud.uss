@@ -1,0 +1,47 @@
+.container {
+    align-self: auto;
+    align-content: auto;
+    align-items: stretch;
+}
+
+.lives {
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: auto;
+    width: 30%;
+    height: 25%;
+    align-content: stretch;
+    position: absolute;
+    flex-direction: row;
+}
+
+.life {
+    position: relative;
+    align-items: auto;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-content: stretch;
+    flex-direction: column;
+    background-image: url("project://database/Assets/Brackeys/2D%20Mega%20Pack/Items%20&%20Icons/Pixel%20Art/Heart.png?fileID=2800000&guid=222d62d87db5931498bb85845842b0d3&type=3#Heart");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.pauseorgameover {
+    background-color: rgba(0, 0, 0, 0);
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+    overflow: visible;
+}
+
+.title {
+}
+
+.text {
+    font-size: 50px;
+    -unity-text-align: upper-center;
+    color: rgb(255, 255, 255);
+}
